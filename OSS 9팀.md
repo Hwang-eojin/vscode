@@ -144,13 +144,11 @@ Prettier를 사용하면 코드의 일관성을 유지하고 가독성을 높일
 1. 확장 프로그램 설치: 먼저 VSCode의 확장 프로그램 탭에서 'Prettier - Code formatter' 확장 프로그램을 검색하고 설치합니다.
 2. Prettier 설치: 프로젝트 폴더에서 터미널을 열고 다음 명령을 실행하여 Prettier를 설치합니다.
 
-npm install --save-dev --save-exact prettier
+![image](https://github.com/Hwang-eojin/vscode/assets/165993218/d71cf604-4745-4ee7-8fb5-72f9c2dd9213)
 
 3. 설정: VSCode의 설정(settings.json)에 아래와 같은 설정을 추가합니다.
 
-"editor.defaultFormatter": "esbenp.prettier-vscode",
-"editor.formatOnSave": true
-
+![image](https://github.com/Hwang-eojin/vscode/assets/165993218/71a58dbc-3a74-4204-8ca7-d32b000719d7)
 4. Prettier 구성: 프로젝트 루트에 .prettierrc 또는 prettier.config.js 파일을 만들어 Prettier의 구성을 정의할 수 있습니다. 이 파일에서 Prettier의 옵션을 사용자 정의할 수 있습니다.
 
 ##### Black 사용 및 기능
