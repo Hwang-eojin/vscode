@@ -153,6 +153,14 @@ Prettier를 사용하면 코드의 일관성을 유지하고 가독성을 높일
 선택적 사용: Prettier는 일반적으로 코드를 자동으로 포맷팅하지만, 설정에서 특정 파일에 대해 포맷터를 변경하거나 Prettier를 비활성화할 수도 있습니다.
 Prettier를 사용하면 코드의 일관성을 유지하고 가독성을 높일 수 있습니다. 코드를 저장할 때마다 자동으로 실행되므로 코드를 포맷하는 과정이 자동화되어 개발자가 일일이 코드를 정리할 필요가 없어집니다.
 
+##### Black 설치 및 설정
+
+1. 확장 프로그램 설치: 먼저 VSCode의 확장 프로그램 탭에서 'Prettier - Code formatter' 확장 프로그램을 검색하고 설치합니다.
+2. Prettier 설치: 프로젝트 폴더에서 터미널을 열고 다음 명령을 실행하여 Prettier를 설치합니다.
+3. 설정: VSCode의 설정(settings.json)에 아래와 같은 설정을 추가합니다.
+4. Prettier 구성: 프로젝트 루트에 .prettierrc 또는 prettier.config.js 파일을 만들어 Prettier의 구성을 정의할 수 있습니다. 이 파일에서 Prettier의 옵션을 사용자 정의할 수 있습니다.
+
+
 
 ##### 정적 분석 도구(Static Analysis Tool):
 
